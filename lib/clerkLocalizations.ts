@@ -1,11 +1,11 @@
 const commonTexts = {
   signIn: {
     phoneCode: {
-      title: '检查手机短信',
-      subtitle: '继续使用 {{applicationName}}',
-      formTitle: '验证码',
-      formSubtitle: '使用发送到您手机的验证码',
-      resendButton: '重新发送验证码',
+      title: 'Check mobile phone messages.',
+      subtitle: 'Continue to use {{applicationName}}',
+      formTitle: 'Verification code',
+      formSubtitle: 'Use the verification code sent to your mobile phone.',
+      resendButton: 'Resend verification code.',
     },
   },
 } as const

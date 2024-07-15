@@ -35,7 +35,7 @@ export default async function AdminPage() {
           )}
         </Card>
         <Card>
-          <Text>总留言</Text>
+          <Text>Overall message</Text>
           {count && 'guestbook' in count && <Metric>{count.guestbook}</Metric>}
         </Card>
       </Grid>

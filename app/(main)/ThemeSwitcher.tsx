@@ -9,12 +9,12 @@ import { Tooltip } from '~/components/ui/Tooltip'
 
 const themes = [
   {
-    label: '浅色模式',
+    label: 'Light mode',
     value: 'light',
     icon: SunIcon,
   },
   {
-    label: '深色模式',
+    label: 'Dark mode',
     value: 'dark',
     icon: MoonIcon,
   },
@@ -60,7 +60,7 @@ export function ThemeSwitcher() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  {themes.find((t) => t.value === theme)?.label || "系统模式"}
+                  {themes.find((t) => t.value === theme)?.label || '系统模式'}
                 </motion.div>
               </Tooltip.Content>
             </Tooltip.Portal>

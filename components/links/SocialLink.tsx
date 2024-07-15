@@ -53,7 +53,11 @@ const iconMapper: { [key: string]: PlatformInfo } = {
     label: '哔哩哔哩',
   },
   '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: '邮箱地址' },
-  '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS 订阅' },
+  '(?:feed.xml)': {
+    icon: AtomIcon,
+    platform: 'rss',
+    label: 'RSS Subscription',
+  },
 }
 
 function getIconForUrl(url: string): PlatformInfo | undefined {

@@ -22,7 +22,7 @@ const NewGuestbookEmail = ({
     firstName: userFirstName,
     lastName: userLastName,
   })
-  const title = `有人在留言墙留言啦`
+  const title = `Someone has left a message on the message wall.`
 
   return (
     <Layout previewText={title}>
@@ -40,7 +40,7 @@ const NewGuestbookEmail = ({
           )}
         </Text>
         <Text className="text-[14px] leading-[24px] text-black">
-          <b>{user}</b>&nbsp;在留言墙留言：
+          <b>{user}</b>&nbsp;Leave a message on the message wall.：
         </Text>
       </Section>
 
@@ -58,7 +58,7 @@ const NewGuestbookEmail = ({
             className="rounded-xl bg-zinc-900 text-center text-[12px] font-semibold text-white no-underline"
             href={link}
           >
-            查看留言
+            View messages
           </Button>
         )}
       </Section>

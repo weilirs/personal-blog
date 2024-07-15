@@ -296,7 +296,7 @@ function Root({ className, blockId }: CommentableProps) {
                         >
                           <Button type="button">
                             <UserArrowLeftIcon className="mr-1 h-5 w-5" />
-                            登录后参与讨论
+                            Participate in the discussion after logging in
                           </Button>
                         </SignInButton>
                       </div>

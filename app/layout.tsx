@@ -7,7 +7,6 @@ import type { Metadata, Viewport } from 'next'
 
 import { ThemeProvider } from '~/app/(main)/ThemeProvider'
 import { url } from '~/lib'
-import { zhCN } from '~/lib/clerkLocalizations'
 import { sansFont } from '~/lib/font'
 import { seo } from '~/lib/seo'
 
@@ -18,7 +17,8 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Lawrence, Lawrence Li,开发者,设计师,细节控,创新',
+  keywords:
+    'Lawrence, Lawrence Li, Developer, Open-Source Enthusiast, Indiehacker,Dreamer',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: url('/'),
     types: {
-      'application/rss+xml': [{ url: 'rss', title: 'RSS 订阅' }],
+      'application/rss+xml': [{ url: 'rss', title: 'RSS Subscription' }],
     },
   },
 }
@@ -70,9 +70,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider localization={zhCN}>
+    <ClerkProvider>
       <html
-        lang="zh-CN"
+        lang="en"
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
         suppressHydrationWarning
       >
