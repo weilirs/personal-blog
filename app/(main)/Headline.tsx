@@ -86,14 +86,14 @@ export function Headline() {
         }}
       >
         <Balancer>
-          I'm Lawrence, a passionate developer who wants to build amazing things
-          with my code. I'm the maintainer of an awesome open-source AI-powered
-          note-taking app called
+          I&apos;m Lawrence, a passionate developer who wants to build amazing
+          things with my code. I&apos;m the maintainer of an awesome open-source
+          AI-powered note-taking app called
           <PeekabooLink href="https://github.com/reorproject/reor">
             Reor
           </PeekabooLink>
-          . I'm currently learning Flutter to develop an AI reader app that will
-          help you clear your unread articles. Cheers!
+          . I&apos;m currently learning Flutter to develop an AI reader app that
+          will help you clear your unread articles. Cheers!
         </Balancer>
       </motion.p>
       <motion.div

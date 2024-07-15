@@ -7,8 +7,8 @@ import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 import { navigationItems } from '~/config/nav'
-import { db } from '~/db'
-import { subscribers } from '~/db/schema'
+// import { db } from '~/db'
+// import { subscribers } from '~/db/schema'
 import { env } from '~/env.mjs'
 import { prettifyNumber } from '~/lib/math'
 import { redis } from '~/lib/redis'
@@ -99,12 +99,12 @@ async function LastVisitorInfo() {
 }
 
 export async function Footer() {
-  const [subs] = await db
-    .select({
-      subCount: count(),
-    })
-    .from(subscribers)
-    .where(isNotNull(subscribers.subscribedAt))
+  // const [subs] = await db
+  //   .select({
+  //     subCount: count(),
+  //   })
+  //   .from(subscribers)
+  //   .where(isNotNull(subscribers.subscribedAt))
 
   return (
     <footer className="mt-32">
