@@ -1,4 +1,4 @@
-import { count, isNotNull } from 'drizzle-orm'
+// import { count, isNotNull } from 'drizzle-orm'
 import Link from 'next/link'
 import React from 'react'
 
@@ -98,7 +98,7 @@ async function LastVisitorInfo() {
   )
 }
 
-export async function Footer() {
+export function Footer() {
   // const [subs] = await db
   //   .select({
   //     subCount: count(),
