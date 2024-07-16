@@ -60,7 +60,8 @@ export function ThemeSwitcher() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  {themes.find((t) => t.value === theme)?.label || '系统模式'}
+                  {themes.find((t) => t.value === theme)?.label ||
+                    'System Mode'}
                 </motion.div>
               </Tooltip.Content>
             </Tooltip.Portal>
