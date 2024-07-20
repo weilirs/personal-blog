@@ -110,7 +110,7 @@ export function Headline() {
       >
         <SocialLink
           href="https://x.com/LawrenceLi1234"
-          aria-label="My twitter"
+          aria-label="My Twitter"
           platform="twitter"
         />
 
@@ -119,11 +119,11 @@ export function Headline() {
           aria-label="My GitHub"
           platform="github"
         />
-        {/* <SocialLink
-          href="mailto:hi@cali.so"
-          aria-label="我的邮箱"
+        <SocialLink
+          href="mailto:740186111serious@gmail.com"
+          aria-label="My Email"
           platform="mail"
-        /> */}
+        />
       </motion.div>
     </div>
   )
